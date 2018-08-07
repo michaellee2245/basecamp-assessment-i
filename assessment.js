@@ -40,15 +40,17 @@ var colorResponse;
 
 var responseCreator = function(param){
 
-  if (param = 'green'){
+  if (param == 'green'){
     console.log('Green is okay')
     return 'Green is okay'
   }
-   else if (param = 'red'){
+   else if (param == 'red'){
     console.log('I heart red')
     return 'I heart red' 
   }
-  return ('What is your favorite color?') 
+  else {
+    return 'What is your favorite color?'
+  }
  
   
 return colorResponse
